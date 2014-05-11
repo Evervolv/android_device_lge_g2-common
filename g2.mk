@@ -15,7 +15,7 @@
 #
 
 ## overlays
-DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
+#DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
 
 # This device is xhdpi.  However the platform doesn't
 # currently contain all of the bitmaps at xhdpi density so
@@ -297,6 +297,3 @@ $(call inherit-product-if-exists, hardware/qcom/msm8x74/msm8x74.mk)
 
 ## Omni-specific stuff
 
-# OmniTorch
-PRODUCT_PACKAGES += \
-    OmniTorch
